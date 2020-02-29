@@ -1,0 +1,103 @@
+body{
+  font-family: ABeeZee;
+
+}
+.navigation{
+  padding-left: 30%;
+}
+.image{
+  position: absolute;
+  z-index: 5;
+  left: 10%;
+}
+.navbar-light .navbar-nav .nav-link.active{
+  color: white;
+}
+.bottom-nav{
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+}
+.image-1{
+  width: 50%;
+}
+.image-1 img{
+  height: 89vh;
+  width: 100%;
+}
+.image-1-content{
+  top: 50vh;
+  color: white;
+  left: 7%;
+}
+.image-1-content h1{
+  font-size: 4rem;
+}
+#heading h1{
+  font-weight: 800;
+  color: white;
+  padding-left: 4%;
+  font-size: 4rem;
+  text-decoration: underline;
+}
+h5{
+  font-size: 2rem;
+  padding-left: 2%;
+  text-decoration: underline;
+  color: white;
+}
+#jokes{
+  padding-left: 20%;
+  color: white;
+  padding-top: 6%;
+  padding-right: 20%;
+  text-align: justify;
+}
+.joke{
+  padding-top: 5%;
+}
+#Video{
+  width: 80%;
+  padding-left: 10%;
+}
+
+.overlay {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0, 0.9);
+overflow-x: hidden;
+transition: 0.5s;
+}
+
+.overlay-content {
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+
+.overlay a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+color: #f1f1f1;
+}
+
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
